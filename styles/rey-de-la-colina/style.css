@@ -1,0 +1,98 @@
+:root {
+  --red-team-color: red;
+  --blue-team-color: blue;
+}
+
+#mainContainer {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+}
+
+.blue-team {
+  background-color: var(--blue-team-color);
+}
+
+.red-team {
+  background-color: var(--red-team-color);
+}
+
+.initial {
+  width: 50%;
+}
+
+.countdown {
+  width: 85%;
+  font-size: 100px;
+  font-weight: bold;
+  transition: all 0.5s linear;
+}
+
+.paused {
+  width: 15%;
+  font-size: 12px;
+  transition: all 0.5s linear;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+  width: 100%;
+  margin: 0px;
+}
+
+progress{
+    width: 100%;
+    height: 30px;
+    display: none;
+}
+
+.winner{
+    width: 100%!important;
+}
+
+.loser{
+    display: none!important;
+}
+
+.tie{
+    width: 100%!important;
+    background-color: #B3A926;
+}
+
+.formulario{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.input{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
